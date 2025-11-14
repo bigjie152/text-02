@@ -1,1 +1,28 @@
-
+{
+  "name": "zhishi-landing-page",
+  "version": "1.0.0",
+  "description": "Zhishi: A minimalist time management app for Windows. Landing page showcasing the product features and benefits.",
+  "keywords": [
+    "time-management",
+    "productivity",
+    "windows",
+    "minimalist",
+    "dayflow"
+  ],
+  "author": "Zhishi Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhishi/landing-page.git"
+  },
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Build process placeholder - this is a static site'",
+    "test": "echo 'No tests yet'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

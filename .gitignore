@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vim/
+.emacs.d/
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Build and dist
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Cache
+.cache/
+*.cache
+
+# System files
+.Spotlight-V100
+.Trashes
+
+# Development
+*.dev
+dev.html
+debug.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+.prettierignore
+.prettierrc
+.eslintignore
+.eslintrc*

@@ -1,1 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhishi - Time Management for Windows</title>
+    <meta name="description" content="Zhishi: A minimalist time management app for Windows. Elegant simplicity designed for productivity.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon"></div>
+                    <span class="logo-text" data-cn="知时" data-en="Zhishi">Zhishi</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features" class="nav-link" data-cn="特性" data-en="Features">Features</a>
+                    <a href="#scenarios" class="nav-link" data-cn="场景" data-en="Use Cases">Use Cases</a>
+                    <a href="#faq" class="nav-link" data-cn="常见问题" data-en="FAQ">FAQ</a>
+                </div>
+                <button class="lang-toggle" id="langToggle">中文</button>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-cn="知时：为 Windows 优化的极简时间管理" data-en="Zhishi: Minimalist Time Management for Windows">
+                    Zhishi: Minimalist Time Management for Windows
+                </h1>
+                <p class="hero-subtitle" data-cn="体验与 Dayflow 相同的优雅简洁，专为 Windows 系统打造的现代化界面。专注时间，管理生产力。" data-en="Experience elegant simplicity like Dayflow, designed for Windows. Focus on time, manage your productivity.">
+                    Experience elegant simplicity like Dayflow, designed for Windows. Focus on time, manage your productivity.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" data-cn="立即下载" data-en="Download Now">Download Now</button>
+                    <button class="btn btn-secondary" data-cn="了解更多" data-en="Learn More">Learn More</button>
+                </div>
+                <div class="hero-image">
+                    <div class="app-preview"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-cn="核心特性" data-en="Core Features">Core Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon minimalist"></div>
+                    <h3 class="feature-title" data-cn="极简设计" data-en="Minimalist Design">Minimalist Design</h3>
+                    <p class="feature-description" data-cn="干净简洁的界面，去除所有不必要的元素，让你专注于时间管理本身。" data-en="Clean and minimalist interface that removes all unnecessary elements, letting you focus on time management.">
+                        Clean and minimalist interface that removes all unnecessary elements, letting you focus on time management.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon intuitive"></div>
+                    <h3 class="feature-title" data-cn="直观操作" data-en="Intuitive Control">Intuitive Control</h3>
+                    <p class="feature-description" data-cn="简单易用的操作流程，快速记录和管理你的每一刻时间。" data-en="Simple and easy-to-use workflow to quickly record and manage every moment of your time.">
+                        Simple and easy-to-use workflow to quickly record and manage every moment of your time.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon native"></div>
+                    <h3 class="feature-title" data-cn="原生体验" data-en="Native Experience">Native Experience</h3>
+                    <p class="feature-description" data-cn="深度集成 Windows 系统，提供一致的使用体验和优化的性能。" data-en="Deep Windows integration for consistent experience and optimized performance.">
+                        Deep Windows integration for consistent experience and optimized performance.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon elegant"></div>
+                    <h3 class="feature-title" data-cn="优雅质感" data-en="Elegant Quality">Elegant Quality</h3>
+                    <p class="feature-description" data-cn="精心设计的视觉效果和交互动画，提供高级应用体验。" data-en="Carefully designed visual effects and animations for a premium app experience.">
+                        Carefully designed visual effects and animations for a premium app experience.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon focus"></div>
+                    <h3 class="feature-title" data-cn="专注工具" data-en="Focus Tools">Focus Tools</h3>
+                    <p class="feature-description" data-cn="帮助你保持专注，提高工作效率，实现生产力目标。" data-en="Tools to keep you focused and help achieve your productivity goals.">
+                        Tools to keep you focused and help achieve your productivity goals.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon sync"></div>
+                    <h3 class="feature-title" data-cn="快速记录" data-en="Quick Logging">Quick Logging</h3>
+                    <p class="feature-description" data-cn="一键快速记录时间活动，无需繁琐的设置步骤。" data-en="One-click quick logging of time activities with minimal setup required.">
+                        One-click quick logging of time activities with minimal setup required.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="scenarios" class="scenarios">
+        <div class="container">
+            <h2 class="section-title" data-cn="应用场景" data-en="Use Cases">Use Cases</h2>
+            <div class="scenarios-grid">
+                <div class="scenario-card">
+                    <div class="scenario-number">01</div>
+                    <h3 class="scenario-title" data-cn="日常时间管理" data-en="Daily Time Management">Daily Time Management</h3>
+                    <p class="scenario-description" data-cn="记录每日的工作、学习、休闲时间，了解时间分配，优化日程安排。" data-en="Track work, study, and leisure time. Understand time allocation and optimize your schedule.">
+                        Track work, study, and leisure time. Understand time allocation and optimize your schedule.
+                    </p>
+                </div>
+                <div class="scenario-card">
+                    <div class="scenario-number">02</div>
+                    <h3 class="scenario-title" data-cn="项目时间追踪" data-en="Project Time Tracking">Project Time Tracking</h3>
+                    <p class="scenario-description" data-cn="精确追踪不同项目的工作时长，分析项目效率，改进工作流程。" data-en="Track time for different projects, analyze efficiency, and improve workflow.">
+                        Track time for different projects, analyze efficiency, and improve workflow.
+                    </p>
+                </div>
+                <div class="scenario-card">
+                    <div class="scenario-number">03</div>
+                    <h3 class="scenario-title" data-cn="专业人士必备" data-en="Essential for Professionals">Essential for Professionals</h3>
+                    <p class="scenario-description" data-cn="为开发者、设计师、顾问等专业人士提供精确的时间账户。" data-en="Precise time tracking for developers, designers, consultants and other professionals.">
+                        Precise time tracking for developers, designers, consultants and other professionals.
+                    </p>
+                </div>
+                <div class="scenario-card">
+                    <div class="scenario-number">04</div>
+                    <h3 class="scenario-title" data-cn="生产力提升" data-en="Productivity Enhancement">Productivity Enhancement</h3>
+                    <p class="scenario-description" data-cn="通过时间数据洞察，发现效率瓶颈，持续优化工作方式。" data-en="Gain insights from time data to identify productivity bottlenecks and optimize workflow.">
+                        Gain insights from time data to identify productivity bottlenecks and optimize workflow.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages-content">
+                <h2 class="section-title" data-cn="为什么选择知时" data-en="Why Choose Zhishi">Why Choose Zhishi</h2>
+                <div class="advantages-list">
+                    <div class="advantage-item">
+                        <div class="advantage-check"></div>
+                        <span data-cn="专为 Windows 系统设计和优化" data-en="Designed and optimized specifically for Windows">Designed and optimized specifically for Windows</span>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-check"></div>
+                        <span data-cn="与 Dayflow 相同的优雅体验" data-en="Same elegant experience as Dayflow">Same elegant experience as Dayflow</span>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-check"></div>
+                        <span data-cn="极简界面，专注核心功能" data-en="Minimalist interface focusing on core features">Minimalist interface focusing on core features</span>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-check"></div>
+                        <span data-cn="快速响应，零延迟体验" data-en="Fast response and zero-latency experience">Fast response and zero-latency experience</span>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-check"></div>
+                        <span data-cn="现代化设计，高级质感" data-en="Modern design with premium feel">Modern design with premium feel</span>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-check"></div>
+                        <span data-cn="免费下载，无隐藏收费" data-en="Free download with no hidden charges">Free download with no hidden charges</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title" data-cn="常见问题" data-en="Frequently Asked Questions">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-cn="知时和 Dayflow 有什么区别？" data-en="What's the difference between Zhishi and Dayflow?">What's the difference between Zhishi and Dayflow?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-cn="知时在 Windows 平台上提供与 Dayflow 相同的时间管理体验。它是专门为 Windows 系统优化的，提供原生的系统集成和最佳的性能表现。" data-en="Zhishi provides the same time management experience as Dayflow on the Windows platform. It's specifically optimized for Windows with native system integration and optimal performance.">
+                            Zhishi provides the same time management experience as Dayflow on the Windows platform. It's specifically optimized for Windows with native system integration and optimal performance.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-cn="知时是否需要付费？" data-en="Is Zhishi free to use?">Is Zhishi free to use?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-cn="是的，知时完全免费。我们相信时间管理应该是所有人都能获得的。" data-en="Yes, Zhishi is completely free. We believe time management should be accessible to everyone.">
+                            Yes, Zhishi is completely free. We believe time management should be accessible to everyone.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-cn="知时支持数据导出吗？" data-en="Does Zhishi support data export?">Does Zhishi support data export?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-cn="支持。你可以随时导出你的时间数据，保留完整的数据所有权和隐私。" data-en="Yes, you can export your time data anytime. Your data is yours, and your privacy is our priority.">
+                            Yes, you can export your time data anytime. Your data is yours, and your privacy is our priority.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-cn="知时支持哪些 Windows 版本？" data-en="Which Windows versions does Zhishi support?">Which Windows versions does Zhishi support?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-cn="知时支持 Windows 10 及以上版本。我们持续优化应用，确保在最新的 Windows 系统上提供最佳体验。" data-en="Zhishi supports Windows 10 and later. We continuously optimize the app to ensure the best experience on the latest Windows systems.">
+                            Zhishi supports Windows 10 and later. We continuously optimize the app to ensure the best experience on the latest Windows systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-cn="准备好提高你的时间管理效率了吗？" data-en="Ready to improve your time management?">Ready to improve your time management?</h2>
+                <p class="cta-subtitle" data-cn="立即下载知时，开始你的极简时间管理之旅。" data-en="Download Zhishi today and start your minimalist time management journey.">
+                    Download Zhishi today and start your minimalist time management journey.
+                </p>
+                <button class="btn btn-primary btn-large" data-cn="立即下载" data-en="Download Now">Download Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title" data-cn="知时" data-en="Zhishi">Zhishi</h4>
+                    <p class="footer-description" data-cn="为 Windows 优化的极简时间管理应用。" data-en="Minimalist time management app optimized for Windows.">
+                        Minimalist time management app optimized for Windows.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-cn="快速链接" data-en="Quick Links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-cn="功能" data-en="Features">Features</a></li>
+                        <li><a href="#" data-cn="隐私政策" data-en="Privacy Policy">Privacy Policy</a></li>
+                        <li><a href="#" data-cn="用户协议" data-en="Terms of Service">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-cn="关注我们" data-en="Follow Us">Follow Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-cn="Twitter" data-en="Twitter">Twitter</a></li>
+                        <li><a href="#" data-cn="GitHub" data-en="GitHub">GitHub</a></li>
+                        <li><a href="#" data-cn="联系我们" data-en="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-cn="© 2024 知时。保留所有权利。" data-en="© 2024 Zhishi. All rights reserved.">© 2024 Zhishi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
