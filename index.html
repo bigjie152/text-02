@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="知时：Windows 平台上的高级时间管理体验，灵感来源于 Dayflow 的极简设计。" />
+    <title>知时 · Zhishi — Windows 上的高级时间管理体验</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="max-width">
+          <nav class="nav">
+            <a class="brand" href="#hero" aria-label="知时主页">
+              <img src="./assets/images/logo.svg" alt="知时 Zhishi" class="brand__mark" />
+              <span class="brand__text">Zhishi</span>
+            </a>
+            <div class="nav__links" role="menubar">
+              <a class="nav__link" href="#features" role="menuitem" data-i18n="nav.features">产品特性</a>
+              <a class="nav__link" href="#scenarios" role="menuitem" data-i18n="nav.scenarios">使用场景</a>
+              <a class="nav__link" href="#faq" role="menuitem" data-i18n="nav.faq">常见问题</a>
+              <a class="nav__link" href="#cta" role="menuitem" data-i18n="nav.download">下载</a>
+            </div>
+            <div class="nav__actions">
+              <div class="language-switch" role="group" aria-label="Language switcher">
+                <button type="button" class="language-switch__btn active" data-lang="zh" data-i18n="lang.zh" aria-pressed="true">中文</button>
+                <button type="button" class="language-switch__btn" data-lang="en" data-i18n="lang.en" aria-pressed="false">English</button>
+              </div>
+              <a class="button button--primary" href="#cta" data-i18n="nav.cta">获取知时</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="hero" class="section hero">
+          <div class="max-width hero__content">
+            <div class="hero__text">
+              <p class="eyebrow" data-i18n="hero.eyebrow">为深度工作者打造</p>
+              <h1 class="hero__title" data-i18n="hero.title">知时 — Windows 上的高级时间掌控体验</h1>
+              <p class="hero__subtitle" data-i18n="hero.subtitle">融合 Dayflow 的极简质感与 Windows 原生性能，知时为追求效率与优雅的你重新定义时间管理。从计划到执行，捕捉每一个灵感瞬间。</p>
+              <div class="hero__actions">
+                <a class="button button--primary" href="#cta" data-i18n="hero.primary">立即下载安装包</a>
+                <a class="button button--ghost" href="#product-preview" data-i18n="hero.secondary">观看一分钟体验</a>
+              </div>
+              <div class="hero__note" data-i18n="hero.note" data-i18n-type="html"><strong>40,000+</strong> 新知工作者正在用知时协调日程、专注与灵感。</div>
+            </div>
+            <div class="hero__visual" id="product-preview" aria-label="知时产品预览">
+              <div class="hero__glass">
+                <div class="hero__glass-header">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+                <div class="hero__schedule">
+                  <div class="hero__schedule-day">
+                    <span class="hero__schedule-date" data-i18n="hero.schedule.date">5月23日</span>
+                    <span class="hero__schedule-dayname" data-i18n="hero.schedule.day">周四</span>
+                  </div>
+                  <ul class="hero__schedule-list">
+                    <li>
+                      <span class="time">09:00</span>
+                      <span class="title" data-i18n="hero.schedule.item1">晨间深度工作：战略规划</span>
+                      <span class="tag" data-i18n="hero.schedule.tag1">专注</span>
+                    </li>
+                    <li>
+                      <span class="time">13:30</span>
+                      <span class="title" data-i18n="hero.schedule.item2">团队进度同步：产品迭代</span>
+                      <span class="tag tag--neutral" data-i18n="hero.schedule.tag2">协作</span>
+                    </li>
+                    <li>
+                      <span class="time">20:00</span>
+                      <span class="title" data-i18n="hero.schedule.item3">夜间灵感整理：创意库</span>
+                      <span class="tag tag--accent" data-i18n="hero.schedule.tag3">深潜</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="section section--padded">
+          <div class="max-width">
+            <div class="section__header">
+              <p class="eyebrow" data-i18n="features.eyebrow">核心特性</p>
+              <h2 data-i18n="features.title">以高级质感演绎时间的秩序</h2>
+              <p class="section__description" data-i18n="features.subtitle">精炼 Dayflow 的设计哲学，专为 Windows 用户调校，保持极简、敏捷与优雅。</p>
+            </div>
+            <div class="grid grid--feature">
+              <article class="card" data-observe>
+                <h3 data-i18n="features.card1.title">原子化日程洞察</h3>
+                <p data-i18n="features.card1.copy">多维卡片式日程，聚焦重点，自动捕捉冲突和空档。</p>
+                <ul class="card__list">
+                  <li data-i18n="features.card1.item1">智能聚合会议、专注与提醒</li>
+                  <li data-i18n="features.card1.item2">时间线与分块视图一键切换</li>
+                  <li data-i18n="features.card1.item3">可视化能量曲线掌握节奏</li>
+                </ul>
+              </article>
+              <article class="card" data-observe>
+                <h3 data-i18n="features.card2.title">跨平台无缝同步</h3>
+                <p data-i18n="features.card2.copy">与 iOS、Android、Web 保持实时一致，协作无需等待。</p>
+                <ul class="card__list">
+                  <li data-i18n="features.card2.item1">连接主流日历与任务系统</li>
+                  <li data-i18n="features.card2.item2">延迟不到 200ms 的秒级同步</li>
+                  <li data-i18n="features.card2.item3">离线模式自动补发更新</li>
+                </ul>
+              </article>
+              <article class="card" data-observe>
+                <h3 data-i18n="features.card3.title">沉浸式专注体验</h3>
+                <p data-i18n="features.card3.copy">暗黑渐层与柔和动效，让专注更沉浸，信息更清晰。</p>
+                <ul class="card__list">
+                  <li data-i18n="features.card3.item1">自定义专注模式与状态</li>
+                  <li data-i18n="features.card3.item2">桌面小组件即时反馈</li>
+                  <li data-i18n="features.card3.item3">系统级快捷键快速调用</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="scenarios" class="section section--alt">
+          <div class="max-width">
+            <div class="section__header">
+              <p class="eyebrow" data-i18n="scenarios.eyebrow">使用场景</p>
+              <h2 data-i18n="scenarios.title">懂你每个瞬间的时间需求</h2>
+              <p class="section__description" data-i18n="scenarios.subtitle">无论是产品经理、设计师或创作者，知时都能贴合你的节奏。</p>
+            </div>
+            <div class="grid grid--scenario">
+              <article class="card card--scenario" data-observe>
+                <div class="card__badge" data-i18n="scenarios.card1.badge">产品规划</div>
+                <h3 data-i18n="scenarios.card1.title">从灵感到里程碑的完整闭环</h3>
+                <p data-i18n="scenarios.card1.copy">通过能量标记识别高价值时间区段，结合决策看板对齐团队节奏。</p>
+              </article>
+              <article class="card card--scenario" data-observe>
+                <div class="card__badge" data-i18n="scenarios.card2.badge">创意调度</div>
+                <h3 data-i18n="scenarios.card2.title">让创意与执行同步发生</h3>
+                <p data-i18n="scenarios.card2.copy">以色彩层级区分灵感、制作与复盘，让作品始终保持灵感驱动。</p>
+              </article>
+              <article class="card card--scenario" data-observe>
+                <div class="card__badge" data-i18n="scenarios.card3.badge">个人生长</div>
+                <h3 data-i18n="scenarios.card3.title">记录每一次专注的成长轨迹</h3>
+                <p data-i18n="scenarios.card3.copy">习惯引擎结合番茄专注数据，量化专注质量，给自己可视化反馈。</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--split" aria-labelledby="metric-title">
+          <div class="max-width split">
+            <div class="split__content" data-observe>
+              <p class="eyebrow" id="metric-title" data-i18n="metrics.eyebrow">数据见证</p>
+              <h2 data-i18n="metrics.title">高效不是偶然，是可被量化的选择</h2>
+              <p class="section__description" data-i18n="metrics.subtitle">从 Beta 到正式版本，我们不断优化每一个细节，只为让你在 Windows 上也能拥有 Mac 级体验。</p>
+              <div class="metrics">
+                <div class="metric">
+                  <span class="metric__value" data-i18n="metrics.value1">96%</span>
+                  <span class="metric__label" data-i18n="metrics.label1">体验满意度</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value" data-i18n="metrics.value2">+2h</span>
+                  <span class="metric__label" data-i18n="metrics.label2">平均每日深度时间增加</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value" data-i18n="metrics.value3">&lt;1s</span>
+                  <span class="metric__label" data-i18n="metrics.label3">关键操作响应时间</span>
+                </div>
+              </div>
+            </div>
+            <div class="split__visual" data-observe>
+              <div class="split__card">
+                <div class="split__card-header">
+                  <span class="pill" data-i18n="metrics.card.badge">今日进度</span>
+                  <span class="pill pill--soft" data-i18n="metrics.card.state">状态：流动</span>
+                </div>
+                <ul class="split__timeline">
+                  <li>
+                    <span class="time">08:30</span>
+                    <span class="title" data-i18n="metrics.card.item1">晨间能量指数 82%，适合策略规划</span>
+                  </li>
+                  <li>
+                    <span class="time">11:00</span>
+                    <span class="title" data-i18n="metrics.card.item2">设计评审自动关联需求文档</span>
+                  </li>
+                  <li>
+                    <span class="time">15:00</span>
+                    <span class="title" data-i18n="metrics.card.item3">专注 50 分钟后智能提醒休息</span>
+                  </li>
+                  <li>
+                    <span class="time">21:30</span>
+                    <span class="title" data-i18n="metrics.card.item4">夜间整理转为第二天灵感任务</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" class="section section--padded">
+          <div class="max-width">
+            <div class="section__header">
+              <p class="eyebrow" data-i18n="faq.eyebrow">常见问题</p>
+              <h2 data-i18n="faq.title">关于知时，你可能想问</h2>
+              <p class="section__description" data-i18n="faq.subtitle">如果这里没有解答，欢迎邮件联系我们：hello@zhishi.app</p>
+            </div>
+            <div class="faq" data-observe>
+              <details class="faq__item" open>
+                <summary data-i18n="faq.q1">知时和现有的日历应用有什么不同？</summary>
+                <p data-i18n="faq.a1">知时以 Time OS 的视角重新组织日程，不仅同步你的日历，更会识别专注区间、能量趋势与协作窗口，带来更具洞察的时间管理体验。</p>
+              </details>
+              <details class="faq__item">
+                <summary data-i18n="faq.q2">知时是否支持团队协作与共享？</summary>
+                <p data-i18n="faq.a2">支持。知时可创建共享空间，与团队协同制定节点，实时同步任务状态，并提供权限管理与操作追踪。</p>
+              </details>
+              <details class="faq__item">
+                <summary data-i18n="faq.q3">我可以离线使用知时吗？</summary>
+                <p data-i18n="faq.a3">可以。离线时所有操作会缓存到本地，联网后将在 3 秒内自动同步到云端，确保数据完整无损。</p>
+              </details>
+              <details class="faq__item">
+                <summary data-i18n="faq.q4">如何参与测试或获取最新版本？</summary>
+                <p data-i18n="faq.a4">订阅知时实验室计划即可获得 Beta 优先体验、版本日志以及专属社区交流通道。</p>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <section id="cta" class="section section--cta" aria-labelledby="cta-title">
+          <div class="max-width section--cta__inner" data-observe>
+            <div class="cta__content">
+              <p class="eyebrow" data-i18n="cta.eyebrow">立即上手</p>
+              <h2 id="cta-title" data-i18n="cta.title">开启你的高级时间管理旅程</h2>
+              <p class="section__description" data-i18n="cta.subtitle">下载 Windows 客户端，或申请加入跨平台体验计划。</p>
+            </div>
+            <div class="cta__actions">
+              <a class="button button--primary" href="https://example.com/download" data-i18n="cta.primary">下载 Windows 版本</a>
+              <a class="button button--ghost" href="#faq" data-i18n="cta.secondary">加入体验计划</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="max-width site-footer__inner">
+          <div class="site-footer__brand">
+            <img src="./assets/images/logo.svg" alt="知时 Zhishi" class="brand__mark" />
+            <span class="brand__text">Zhishi Studio</span>
+          </div>
+          <div class="site-footer__links">
+            <a href="#features" data-i18n="footer.features">产品特性</a>
+            <a href="#faq" data-i18n="footer.support">支持中心</a>
+            <a href="mailto:hello@zhishi.app" data-i18n="footer.contact">合作联系</a>
+            <a href="https://example.com/privacy" rel="noopener" data-i18n="footer.privacy">隐私政策</a>
+          </div>
+          <p class="site-footer__copy" data-i18n="footer.copy">© 2024 Zhishi Studio. 保留所有权利。</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/js/main.js" defer></script>
+  </body>
+</html>

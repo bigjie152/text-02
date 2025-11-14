@@ -1,0 +1,16 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Dependencies
+/node_modules/
+
+# Editor directories
+.vscode/
+.idea/
